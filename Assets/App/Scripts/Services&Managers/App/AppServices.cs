@@ -31,6 +31,10 @@ namespace CHANGE_THE_NAME
         public ConsoleInput ConsoleManger;
         public SceneManager SceneManager;
         public CVarManager cVarManager;
+        public AppInput AppInput;
+
+        [Header("- Settings -")]
+        public bool DebugFeatures;
 
         static string version;
         public static string VersionNumber
@@ -85,6 +89,10 @@ namespace CHANGE_THE_NAME
         void Update()
         {
             ConsoleManger.Update();
+            if(DebugFeatures)
+            {
+                AppUI.CurrentKeysText.text = Input.inputString;
+            }
         }
 
         void SetupInstance()
@@ -106,9 +114,12 @@ namespace CHANGE_THE_NAME
         }
         void InitializeServices()
         {
-            AppUI.SetVersion(Application.platform + " " + VersionNumber);
             ConsoleManger.Initialize();
-            cVarManager.Intialize();
+
+            AppUI.SetVersion(Application.platform + " " + VersionNumber);
+            SceneManager.Initialize();
+            cVarManager.Initialize();
+            AppInput.Initialize();
         }
     }
 }

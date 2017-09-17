@@ -6,6 +6,7 @@ using UnityEngine.UI;
 [Serializable]
 public class AppUIManager
 {
+    public Text CurrentKeysText;
     [SerializeField] Text versionLabel;
     public void SetVersion(string v)
     {

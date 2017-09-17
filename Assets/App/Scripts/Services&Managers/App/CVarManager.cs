@@ -10,7 +10,7 @@ namespace CHANGE_THE_NAME
     {
         ConsoleVariables cvars = new ConsoleVariables();
 
-        public void Intialize()
+        public void Initialize()
         {
             Debug.Console.Add("Set", this, "SetCvar");
             Debug.Console.Add("Get", this, "GetCvar");
