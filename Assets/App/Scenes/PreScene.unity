@@ -919,7 +919,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22429292, guid: 5da06646697ae6949880efd52e57e9ec, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -21762
+      value: -26784
       objectReference: {fileID: 0}
     - target: {fileID: 22429292, guid: 5da06646697ae6949880efd52e57e9ec, type: 2}
       propertyPath: m_SizeDelta.y
@@ -947,7 +947,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22489380, guid: 5da06646697ae6949880efd52e57e9ec, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -410
       objectReference: {fileID: 0}
     - target: {fileID: 22419892, guid: 5da06646697ae6949880efd52e57e9ec, type: 2}
       propertyPath: m_AnchorMax.x
@@ -995,7 +995,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22418824, guid: 5da06646697ae6949880efd52e57e9ec, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 310
       objectReference: {fileID: 0}
     - target: {fileID: 22489380, guid: 5da06646697ae6949880efd52e57e9ec, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -1007,7 +1007,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22489380, guid: 5da06646697ae6949880efd52e57e9ec, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 310
       objectReference: {fileID: 0}
     - target: {fileID: 11449414, guid: 5da06646697ae6949880efd52e57e9ec, type: 2}
       propertyPath: m_FontData.m_Font
@@ -1524,6 +1524,7 @@ MonoBehaviour:
     scene: 1
   AppInput:
     Disable: 0
+  StaticCoroutine: {fileID: 0}
   DebugFeatures: 1
 --- !u!4 &1868895415
 Transform:

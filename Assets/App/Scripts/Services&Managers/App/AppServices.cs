@@ -32,6 +32,7 @@ namespace CHANGE_THE_NAME
         public SceneManager SceneManager;
         public CVarManager cVarManager;
         public AppInput AppInput;
+        public StaticCoroutine StaticCoroutine;
 
         [Header("- Settings -")]
         public bool DebugFeatures;

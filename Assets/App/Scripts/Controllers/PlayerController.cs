@@ -24,6 +24,7 @@ namespace CHANGE_THE_NAME
             if (AppServices.Instance.AppInput.GetKey(Key.MoveDown, KeyState.Press))
             {
                 transform.position += Vector3.down * speed * Time.deltaTime;
+
             }
         }
     }
